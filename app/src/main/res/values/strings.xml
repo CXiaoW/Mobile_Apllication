@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Bill Breakdown </string>
+    <string name="equal_break">Equal Breakdown</string>
+    <string name="custom_break">Custom Breakdown</string>
+    <string name="history">History</string>
+
+</resources>

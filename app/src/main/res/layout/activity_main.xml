@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background = "@drawable/gradient_background"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_1"
+        android:layout_width="match_parent"
+        android:layout_height="248dp"
+        android:gravity="center"
+        android:text="Bill Break Down App"
+        android:fontFamily="@fonts/playfairdisplay_bold"
+        android:textSize="34sp" />
+
+    <Button
+        android:id="@+id/equal_break"
+        android:layout_width="264dp"
+        android:layout_height="73dp"
+        android:layout_marginLeft="75dp"
+        android:background="@drawable/button_outline_background"
+        android:fontFamily="@fonts/playfairdisplay_regular"
+        android:textSize="24sp"
+        android:text="@string/equal_break" />
+
+    <Button
+        android:id="@+id/custom_break"
+        android:layout_width="264dp"
+        android:layout_height="73dp"
+        android:layout_marginLeft="75dp"
+        android:background="@drawable/button_outline_background"
+        android:fontFamily="@fonts/playfairdisplay_regular"
+        android:textSize="24sp"
+        android:text="@string/custom_break" />
+
+    <Button
+        android:id="@+id/history"
+        android:layout_width="264dp"
+        android:layout_height="73dp"
+        android:layout_marginLeft="75dp"
+        android:background="@drawable/button_outline_background"
+        android:fontFamily="@fonts/playfairdisplay_regular"
+        android:textSize="24sp"
+        android:text="@string/history" />
+
+</LinearLayout>

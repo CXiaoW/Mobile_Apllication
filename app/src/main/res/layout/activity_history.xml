@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- TextView for no data -->
+        <TextView
+            android:id="@+id/tv_na"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="No Data Available"
+            android:visibility="gone" />
+
+        <ListView
+            android:id="@+id/list_view"
+            android:layout_width="match_parent"
+            android:layout_height="580dp"
+            android:visibility="gone"/>
+
+        <!-- Separate layout for buttons -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_refresh"
+                android:layout_width="129dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginLeft="25dp"
+                android:text="Refresh" />
+
+            <Button
+                android:id="@+id/btn_clear"
+                android:layout_width="129dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginLeft="85dp"
+                android:text="Clear All" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
